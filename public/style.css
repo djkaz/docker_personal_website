@@ -1,0 +1,45 @@
+
+/*whatsapp api button*/
+.float{
+	position:fixed;
+	/*position: absolute;*/
+	width:55px;
+	height:55px;
+	bottom:35px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:30px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+/*whatsapp api button*/
+
+/*google maps responsive*/
+.google-maps {
+	position: relative;
+	padding-bottom: 50%; /*This is the aspect ratio*/
+	height: 0;
+	overflow: hidden;
+  }
+  .google-maps iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+  }
+
+
+/*textare no resize*/
+
+div.col-md-6 textarea {
+    resize: none;
+}
+
+.form-control:focus textarea{
+resize: none;
+}
+
